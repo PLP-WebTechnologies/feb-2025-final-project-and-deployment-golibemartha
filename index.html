@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Nigerian Meals</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="pageWrapper">
+            <header class="navbar">
+                <h1>Quick Nigerian Meals</h1>
+                <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                </ul>
+                </nav>
+                <button id="darkModeToggle" class="darkModeBtn">🌙 Dark Mode</button>
+            </header>
+
+            <main>
+                <section class="intro">
+                    <h2>Welcome to Quick Nigerian Meals</h2>
+                    <p>In today’s fast paced world, finding time to prepare a healthy satisfying meal can feel like a luxury. Whether you're a student, a busy parent or someone balancing multiple jobs, the last thing you want is to spend hours in the kitchen. That’s where quick meals come in not just fast food, but real nourishing meals made quickly using simple affordable ingredients.</p>
+                    <p>Your go to blog for fast and tasty Nigerian dishes for busy days!</p>
+                </section>
+
+                <section class="featured">
+                    <h3>Featured Recipe</h3>
+                    <div class="featuredCard">
+                        <div class="card" onclick="showRecipeDetails('jollofRice')">
+                            <img src="https://images.pexels.com/photos/17952746/pexels-photo-17952746/free-photo-of-diner-with-rice-and-fried-vegetables.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Jollof Rice">
+                            <h4>Easy Jollof Rice</h4>
+                            <p>Ready in 30 minutes with basic ingredients!</p>
+                        </div>
+
+                        <div class="card" onclick="showRecipeDetails('noodles')">
+                            <img src="https://images.pexels.com/photos/15355036/pexels-photo-15355036/free-photo-of-bowls-of-soup-with-noodles-and-shrimps.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Noodles">
+                            <h4>Noodles</h4>
+                            <p>Ready in 5 minutes with basic ingredients!</p>
+                        </div>
+
+                        <div class="card" onclick="showRecipeDetails('plantainEggs')">
+                            <img src="https://th.bing.com/th/id/R.6dc5c574a408f027380509354ec42b3d?rik=nYU2GTWj8UPlSg&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Fried Plantain and Eggs">
+                            <h4>Fried Plantain & Eggs</h4>
+                            <p>Quick, tasty and perfect for breakfast or dinner!</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer>
+                <p>&copy; 2025 Quick Nigerian Meals. All rights reserved.</p>
+            </footer>
+        </div>
+        <script src="script.js" defer></script>
+    </body>
+</html>
+
