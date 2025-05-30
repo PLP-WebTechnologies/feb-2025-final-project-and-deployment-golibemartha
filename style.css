@@ -97,6 +97,11 @@ body.darkMode .card {
   border-color: #444;
 }
 
+body.darkMode .card h4,
+body.darkMode .card p {
+  color: #f1f1f1; 
+}
+
 .darkModeBtn {
   background: none;
   border: 1px solid white;
@@ -119,6 +124,74 @@ body.darkMode .navMenu li a {
 
 body.darkMode .navMenu li a:hover {
   color: darkcyan; 
+}
+
+body.darkMode .socialLinks li a:hover {
+  color: darkcyan; 
+}
+
+body.darkMode .form input[type="email"] {
+  background-color: #232323; 
+  color: #f1f1f1; 
+  border: 1px solid #444; 
+}
+
+body.darkMode .form button {
+  background-color: #444; 
+  color: #f1f1f1;
+}
+
+body.darkMode .form button:hover {
+  background-color: darkcyan; 
+}
+
+body.darkMode .intro {
+  background-color: #232323; 
+  color: #f1f1f1; 
+}
+
+body.darkMode .intro h2,
+body.darkMode .intro p {
+  color: #f1f1f1; 
+}
+
+body.darkMode section {
+  background-color: #232323; 
+  color: #f1f1f1; 
+  border-color: #444; 
+}
+
+body.darkMode article {
+  background-color: #232323; 
+  color: #f1f1f1; 
+  border-color: #444; 
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); 
+}
+
+body.darkMode section h2,
+body.darkMode section h3,
+body.darkMode article h3,
+body.darkMode article h4 {
+  color: #f1f1f1; 
+}
+
+body.darkMode article ul,
+body.darkMode article ol {
+  color: #f1f1f1; 
+}
+
+body.darkMode section a,
+body.darkMode article a {
+  color: darkcyan; 
+}
+
+body.darkMode section a:hover,
+body.darkMode article a:hover {
+  color: cyan; 
+}
+
+body, section, article {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar {
