@@ -1,49 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipes - Quick Nigerian Meals</title>
-    <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recipes - Quick Nigerian Meals</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="recipes.css">
     </head>
     <body>
         <div class="pageWrapper">
             <header class="navbar">
                 <h1>Recipes</h1>
                 <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="recipes.html">Recipes</a></li>
-                </ul>
+                    <button id="menu" class="hamburger" aria-label="Toggle navigation menu">☰</button>
+                    <ul class="navMenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                    </ul>
                 </nav>
-                <button id="darkModeToggle" class="darkModeBtn">🌙 Dark Mode</button>
-
+                <button id="darkModeToggle" class="darkModeBtn" aria-label="Toggle dark mode">🌙</button>
             </header>
 
             <main>
                 <section class="recipeList">
-                <h2>Quick Recipes</h2>
-                <article onclick="showRecipeDetails('yamPorridge')">
-                    <h3>Yam Porridge</h3>
-                    <p>Hearty and filling in just 25 minutes.</p>
-                </article>
-                <article onclick="showRecipeDetails('moiMoi')">
-                    <h3>Moi Moi (Steamed Bean Cake)</h3>
-                    <p>Great as a main or side dish.</p>
-                </article>
-                <article onclick="showRecipeDetails('okroSoup')">
-                    <h3>Okro Soup</h3>
-                    <p>Nutritious and ready in 20 minutes.</p>
-                </article>
+                    <h2>Quick Recipes</h2>
+
+                    <article>
+                        <h3>1. Indomie Noodles with Eggs and Vegetables</h3>
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>1–2 packs of Indomie noodles (or any instant noodles)</li>
+                            <li>2 eggs</li>
+                            <li>1 small onion (chopped)</li>
+                            <li>1 tomato (chopped)</li>
+                            <li>1 handful of chopped vegetables (e.g., carrots, green pepper, spinach or ugu)</li>
+                            <li>1 tbsp vegetable oil</li>
+                            <li>Seasoning (from noodle pack or your choice)</li>
+                        </ul>
+                        <h4>Preparation:</h4>
+                        <ol>
+                            <li>Heat oil in a pan and sauté onions and tomatoes for 2 minutes.</li>
+                            <li>Add chopped vegetables and stir-fry for 3 minutes.</li>
+                            <li>Add a splash of water, the noodle seasoning, and bring to a boil.</li>
+                            <li>Add noodles and cook for 2–3 minutes.</li>
+                            <li>Break in the eggs, stir gently, and let it cook for another 2 minutes.</li>
+                            <li>Serve hot.</li>
+                        </ol>
+                    </article>
+
+                    <article>
+                        <h3>2. Yam or Potato Porridge (Quick Version using Potatoes)</h3>
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>3 medium Irish or sweet potatoes (peeled and diced)</li>
+                            <li>1 small onion (sliced)</li>
+                            <li>1 tomato and 1 scotch bonnet (blended)</li>
+                            <li>1/2 cup palm oil</li>
+                            <li>1 seasoning cube</li>
+                            <li>Salt to taste</li>
+                            <li>A handful of ugu or scent leaves (optional)</li>
+                        </ul>
+                        <h4>Preparation:</h4>
+                        <ol>
+                            <li>Heat palm oil in a pot, sauté onions, and add blended tomato and pepper.</li>
+                            <li>Cook for 5–7 minutes till oil begins to separate.</li>
+                            <li>Add diced potatoes, seasoning cube, and salt.</li>
+                            <li>Pour in enough water to barely cover potatoes.</li>
+                            <li>Cook for 10–15 minutes until potatoes are soft and break slightly.</li>
+                            <li>Add vegetables and simmer for 3 more minutes.</li>
+                            <li>Serve warm.</li>
+                        </ol>
+                    </article>
+
+                    <article>
+                        <h3>3. Egg Sauce with Boiled Plantains or Potatoes</h3>
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>2–3 eggs</li>
+                            <li>2 tomatoes (chopped)</li>
+                            <li>1 onion (sliced)</li>
+                            <li>1 scotch bonnet (optional)</li>
+                            <li>1/4 cup vegetable oil</li>
+                            <li>Salt and seasoning to taste</li>
+                            <li>2 unripe or ripe plantains or potatoes (peeled and sliced)</li>
+                        </ul>
+                        <h4>Preparation:</h4>
+                        <ol>
+                            <li>Boil plantains or potatoes in salted water until soft (about 15–20 minutes).</li>
+                            <li>For the sauce, heat oil and sauté onions and pepper.</li>
+                            <li>Add tomatoes and stir-fry until softened (5–7 minutes).</li>
+                            <li>Season and pour in beaten eggs.</li>
+                            <li>Scramble gently until eggs are set.</li>
+                            <li>Serve with the boiled plantains or potatoes.</li>
+                        </ol>
+                    </article>
+
+                    <article>
+                        <h3>4. Moi Moi in Microwave or Oven (Using Beans Flour)</h3>
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>1 cup beans flour</li>
+                            <li>2 cups water</li>
+                            <li>1/2 cup vegetable oil or palm oil</li>
+                            <li>1 seasoning cube</li>
+                            <li>Salt to taste</li>
+                            <li>1 tsp ground pepper</li>
+                            <li>Optional: boiled egg slices or sardine</li>
+                        </ul>
+                        <h4>Preparation:</h4>
+                        <ol>
+                            <li>Mix beans flour, water, oil, pepper, seasoning, and salt until smooth.</li>
+                            <li>Pour into a greased microwave-safe container or muffin tray.</li>
+                            <li>Add egg or sardine if desired.</li>
+                            <li>Microwave for 10–12 minutes or bake in the oven at 180°C for 25–30 minutes.</li>
+                            <li>Let it cool and serve.</li>
+                        </ol>
+                    </article>
+
+                    <article>
+                        <h3>5. Garden Egg Sauce with Boiled Yam or Potatoes</h3>
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>6–8 garden eggs</li>
+                            <li>1 small onion (chopped)</li>
+                            <li>1 tomato (chopped)</li>
+                            <li>1/4 cup palm oil</li>
+                            <li>1 seasoning cube</li>
+                            <li>Salt to taste</li>
+                        </ul>
+                        <h4>Preparation:</h4>
+                        <ol>
+                            <li>Boil garden eggs for 10–15 minutes and peel skin.</li>
+                            <li>Mash or blend roughly.</li>
+                            <li>Heat palm oil, sauté onions and tomato.</li>
+                            <li>Add mashed garden eggs, seasoning, and salt.</li>
+                            <li>Cook for 5–7 minutes until well combined.</li>
+                            <li>Serve with boiled yam or potatoes.</li>
+                        </ol>
+                    </article>
+
+                    <article>
+                        <h3>6. Nigerian Fried Eggs with Bread</h3>
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>2 eggs</li>
+                            <li>1/2 tomato (diced)</li>
+                            <li>1/4 onion (sliced)</li>
+                            <li>1 scotch bonnet (chopped, optional)</li>
+                            <li>Salt and seasoning to taste</li>
+                            <li>Vegetable oil for frying</li>
+                            <li>Bread (sliced)</li>
+                        </ul>
+                        <h4>Preparation:</h4>
+                        <ol>
+                            <li>Beat eggs in a bowl with salt and seasoning.</li>
+                            <li>Stir in the chopped tomato, onion, and pepper.</li>
+                            <li>Heat oil in a pan and pour in the egg mixture.</li>
+                            <li>Fry on medium heat until set.</li>
+                            <li>Serve with bread.</li>
+                        </ol>
+                    </article>
+
+                    <article>
+                        <h3>7. Okro Soup with Eba or Fufu (Quick Version)</h3>
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>10 okro pods (chopped or grated)</li>
+                            <li>1/2 cup palm oil</li>
+                            <li>1 tsp ground crayfish</li>
+                            <li>1 seasoning cube</li>
+                            <li>Salt to taste</li>
+                            <li>Small smoked fish or stockfish (optional)</li>
+                            <li>Water or meat stock</li>
+                            <li>Eba or fufu (ready-made or prepared)</li>
+                        </ul>
+                        <h4>Preparation:</h4>
+                        <ol>
+                            <li>Boil water or stock, add palm oil, crayfish, and seasoning cube.</li>
+                            <li>Add fish and simmer for 5 minutes.</li>
+                            <li>Add okro and stir continuously for 3–5 minutes.</li>
+                            <li>Taste for salt. Remove from heat while it’s still fresh and green.</li>
+                            <li>Serve with eba or fufu.</li>
+                        </ol>
+                    </article>
+
+                    <article>
+                        <h3>8. Akara (Bean Cakes)</h3>
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>1 cup peeled beans (or beans flour)</li>
+                            <li>1/2 onion (chopped)</li>
+                            <li>1 scotch bonnet (optional)</li>
+                            <li>Salt to taste</li>
+                            <li>Vegetable oil for frying</li>
+                        </ul>
+                        <h4>Preparation:</h4>
+                        <ol>
+                            <li>Blend peeled beans with little water, pepper, and onion until thick.</li>
+                            <li>Stir in salt.</li>
+                            <li>Heat oil in a frying pan. Scoop batter into hot oil in small balls.</li>
+                            <li>Fry until golden brown on both sides.</li>
+                            <li>Drain and serve with pap, custard, bread, or garri water.</li>
+                        </ol>
+                    </article>
+
+                    <article>
+                        <h3>9. Custard or Pap with Akara or Moi Moi</h3>
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>Custard powder or akamu/pap</li>
+                            <li>Sugar (optional)</li>
+                            <li>Milk or evaporated milk</li>
+                            <li>Hot water</li>
+                        </ul>
+                        <h4>Preparation:</h4>
+                        <ol>
+                            <li>Mix custard powder with cold water to form a smooth paste.</li>
+                            <li>Pour in boiling water while stirring continuously until it thickens.</li>
+                            <li>Add sugar and milk if desired.</li>
+                            <li>Serve with akara or moi moi.</li>
+                        </ol>
+                    </article>
+
+                    <article>
+                        <h3>10. Jollof Spaghetti</h3>
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>1 pack of spaghetti (broken in half)</li>
+                            <li>3 tomatoes, 1 onion, 1 scotch bonnet (blended)</li>
+                            <li>1/4 cup vegetable oil</li>
+                            <li>1 tsp curry, thyme</li>
+                            <li>1 seasoning cube</li>
+                            <li>Salt to taste</li>
+                        </ul>
+                        <h4>Preparation:</h4>
+                        <ol>
+                            <li>Heat oil, sauté onions, and fry blended tomato mix for 8–10 minutes.</li>
+                            <li>Add curry, thyme, salt, and seasoning.</li>
+                            <li>Pour in water and bring to a boil.</li>
+                            <li>Add spaghetti and stir well.</li>
+                            <li>Cook until soft and sauce is absorbed (about 10–12 minutes).</li>
+                            <li>Serve hot.</li>
+                        </ol>
+                    </article>
+
+                    <article>
+                        <h3>11. Yam Porridge (Asaro) — Fast Cooking Style</h3>
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>3 slices of yam (peeled and cubed) or substitute with potatoes</li>
+                            <li>1/2 cup palm oil</li>
+                            <li>1 tomato and 1 pepper (blended)</li>
+                            <li>1 onion (sliced)</li>
+                            <li>1 seasoning cube</li>
+                            <li>Salt to taste</li>
+                            <li>Crayfish or smoked fish (optional)</li>
+                        </ul>
+                        <h4>Preparation:</h4>
+                        <ol>
+                            <li>In a pot, boil yam with salt and seasoning cube.</li>
+                            <li>Add blended pepper/tomato, onions, palm oil, and fish or crayfish.</li>
+                            <li>Simmer until yam is soft and stew thickens (about 20 minutes).</li>
+                            <li>Stir gently to mash some yam for thickness.</li>
+                            <li>Serve warm.</li>
+                        </ol>
+                    </article>
+
+                    <article>
+                        <h3>12. Ewa Agoyin (Mashed Beans with Spicy Sauce)</h3>
+                        <h4>Ingredients for Beans:</h4>
+                        <ul>
+                            <li>1 cup brown or black-eyed beans</li>
+                            <li>Salt</li>
+                        </ul>
+                        <h4>Ingredients for Sauce:</h4>
+                        <ul>
+                            <li>1/2 cup palm oil</li>
+                            <li>2 dry peppers (blended)</li>
+                            <li>1 small onion (chopped)</li>
+                            <li>Salt and seasoning cube</li>
+                        </ul>
+                        <h4>Preparation:</h4>
+                        <ol>
+                            <li>Boil beans until very soft and mash slightly.</li>
+                            <li>For sauce, bleach palm oil until smoky, reduce heat.</li>
+                            <li>Add onions and fry until almost burnt.</li>
+                            <li>Add blended dry pepper, season, and fry until dark.</li>
+                            <li>Serve beans with the spicy oil sauce.</li>
+                        </ol>
+                    </article>
+
+                    <article>
+                        <h3>13. Abacha (African Salad) — Quick Version</h3>
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>2 cups abacha (soaked in warm water and drained)</li>
+                            <li>1/4 cup palm oil</li>
+                            <li>1 tsp ground crayfish</li>
+                            <li>1 tsp potash (dissolved in water, optional)</li>
+                            <li>Pepper and onion (sliced)</li>
+                            <li>Ugba (oil bean, optional)</li>
+                            <li>Seasoning cube and salt</li>
+                            <li>Garden eggs (optional)</li>
+                        </ul>
+                        <h4>Preparation:</h4>
+                        <ol>
+                            <li>Mix palm oil and potash water until it thickens and turns yellowish.</li>
+                            <li>Add crayfish, pepper, onions, ugba, salt, and seasoning.</li>
+                            <li>Stir in soaked abacha until evenly coated.</li>
+                            <li>Garnish and serve with garden eggs or fish.</li>
+                        </ol>
+                    </article>
+
+                    <article>
+                        <h3>14. Nkwobi (Cow Foot in Spicy Palm Oil Sauce) — Quick Home Style</h3>
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            <li>Boiled cow foot (or substitute with ponmo)</li>
+                            <li>1/4 cup palm oil</li>
+                            <li>1 tsp ground ehuru (calabash nutmeg)</li>
+                            <li>1 tsp potash (dissolved)</li>
+                            <li>Pepper, onion</li>
+                            <li>Seasoning cube and salt</li>
+                        </ul>
+                        <h4>Preparation:</h4>
+                        <ol>
+                            <li>Mix palm oil with potash solution until thickened.</li>
+                            <li>Add pepper, seasoning, ehuru, and salt.</li>
+                            <li>Stir in cooked cow foot pieces.</li>
+                            <li>Serve warm with chilled drinks.</li>
+                        </ol>
+                    </article>
                 </section>
             </main>
 
             <footer>
                 <p>&copy; 2025 Quick Nigerian Meals. All rights reserved.</p>
             </footer>
-       </div>
-      <script src="script.js" defer></script>
+        </div>
+        <script src="script.js" defer></script>
     </body>
 </html>
-

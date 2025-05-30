@@ -1,0 +1,40 @@
+.recipeList {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.recipeList h2 {
+  text-align: center;
+  color: teal;
+  margin-bottom: 20px;
+}
+
+article {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+  color: teal;
+  margin-top: 0;
+}
+
+article h4 {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+article ul,
+article ol {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+article ul li,
+article ol li {
+  margin-bottom: 8px;
+}

@@ -5,26 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Quick Nigerian Meals</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
   </head>
-  <body>
+  <body class="aboutPage">
     <div class="pageWrapper">
       <header class="navbar">
         <h1>About</h1>
         <nav>
-          <ul>
+          <button id="menu" class="hamburger" aria-label="Toggle navigation menu">☰</button>
+          <ul class="navMenu">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="recipes.html">Recipes</a></li>
           </ul>
         </nav>
-        <button id="darkModeToggle" class="darkModeBtn">🌙 Dark Mode</button>
+        <button id="darkModeToggle" class="darkModeBtn" aria-label="Toggle dark mode">🌙</button>
       </header>
 
       <main>
         <section>
-          <h2>About This Blog</h2>
-          <p>This blog was created to help busy people prepare quick, delicious Nigerian meals without stress.</p>
-          <p>Whether you're a student, professional, or homemaker — there's something here for you!</p>
+          <h2>About Quick Nigerian Meals</h2>
+          <p>Welcome to Quick Nigerian Meals, your ultimate destination for fast, easy and delicious Nigerian recipes. It is understandable how challenging it can be to balance a busy lifestyle while still enjoying home cooked meals. That is why this blog was created to make cooking authentic Nigerian dishes simple and stress free.</p>
+          <p>Whether you are a student who is juggling classes, a professional with a packed schedule or a homemaker looking for quick meal ideas, this blog is here to inspire you. The recipes here are designed to save you time without compromising on flavor or nutrition.</p>
+          <p>At Quick Nigerian Meals, everyone deserves to enjoy the rich and diverse flavors of Nigerian cuisine, no matter how busy life gets. From classic dishes like Jollof Rice and Egusi Soup to quick fixes like Noodles and Fried Plantain, there is something for everyone.</p>
+        </section>
+        <section>
+          <h3>Our Mission</h3>
+          <p>Our mission is to empower busy individuals with the tools and knowledge to prepare wholesome Nigerian meals in no time. We aim to:</p>
+          <ul>
+            <li>Provide quick and easy recipes that require minimal ingredients and time.</li>
+            <li>Share tips and tricks to make cooking efficient and enjoyable.</li>
+            <li>Celebrate the rich culinary heritage of Nigeria while making it accessible to everyone.</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Join Our Community</h3>
+          <p>We invite you to join our community of food lovers! Share your experiences, ask questions, and connect with others who share your passion for quick and tasty Nigerian meals.</p>
+          
+          <p>Follow us on social media:</p>
+          <ul class="socialLinks">
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+          </ul>
+
+          <p>Subscribe to our newsletter for the latest recipes and cooking tips:</p>
+          <form class="form" aria-live="polite">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+          </form>
+          <p>Thank you for visiting Quick Nigerian Meals. We hope you find inspiration and joy in cooking with us!</p>
         </section>
       </main>
 
